@@ -1,0 +1,22 @@
+.primes-container{
+  .worker-title{
+    border-bottom: 1px solid var(--text-color-secondary);
+  }
+
+  .numbers-container{
+    position: relative;
+
+    .grad-divider{
+      position: absolute;
+      top: 0;
+      height: 40px;
+      width: 100%;
+      background: linear-gradient(rgba(233, 236, 239, 1), rgba(233, 236, 239, 0));
+      z-index: 1;
+    }
+
+    .number{
+      color: var(--text-color-secondary);
+    }
+  }
+}
